@@ -1,1 +1,0 @@
-Nous faisons en sorte que chacun puisse s'exprimer, proposer une idée, suivre celle des autres, s'associer pour avoir plus de poids, la concrétiser et essaimer.
