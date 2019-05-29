@@ -1,0 +1,3 @@
+Où que vous soyez dans COmmunecter, le bouton <img src="ASSETS/boutonCarte.png" style="border:none; margin: 0; width: 100px; vertical-align:middle; box-shadow:none;"> est accessible.
+<p style="font-size: 0.5em"><i>Une fois chargée, cliquez sur la carte pour naviguer.</i></p>
+<iframe data-src="https://www.communecter.org/network/default/index?src=https://gist.githubusercontent.com/Drakone/73a5ba19e74b9602c2a63407cad98ba7/raw/grandestSanteEnvironnement.json" width="80%" height="450px" frameborder="0"  data-preload></iframe>
