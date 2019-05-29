@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Cibles de COmmunecter</title>
+
+    <meta name="cibles" content="Présentation de COmmunecter en fonction de son profil">
+    <meta name="author" content="Tom Baumert">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="../css/reveal.css">
+    <link rel="stylesheet" href="../css/theme/white.css" id="theme">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <style type="text/css">
+        .reveal p {
+            font-size: 0.8em;
+        }
+
+        .reveal section h2 {
+            color: black;
+            background-color: white;
+            display: inline-block;
+            height: 1.1em;
+            line-height: 1.2em;
+            padding: 20px;
+        }
+
+        h3.descriptionCible {
+            color: grey;
+            background-color: white;
+            font-size: 1em;
+        }
+
+        .reveal section h4 {
+            margin-bottom: 40px;
+        }
+
+        .logoCO {
+            position: fixed;
+            bottom: 1em;
+            left: 1em;
+            width: 100px;
+            z-index: 1;
+        }
+
+        #listElement {
+            columns: 250px auto;
+        }
+
+        #listElement p {
+            margin-top: 0;
+        }
+
+        .arrowdown {
+            position: fixed;
+            bottom: 20px;
+            color: #91BE20;
+            -webkit-animation: bounce-down 2s 50 both ease-out;
+            animation: bounce-down 2s 50 both ease-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="reveal">
+        <a href="http://communecter.org/"><img class="logoCO" src="ASSETS/COtransparent.png"></img></a>
+        <div class="slides">
+
+            <section data-background-image="ASSETS/pointilles-A4.png">
+                <h1>Communecter</h1>
+                <p>Ce réseau social libre a été conçu pour mettre en réseau les acteurs de nos territoires.
+                    Ce diaporama vous permettra de comprendre en quoi COmmunecter peut vous être utile et ce que vous pouvez faire avec.</p>
+                <i>Naviguez grâce aux fléches du clavier.
+                    Positionnez vous sur votre profil puis descendez pour découvrir la présentation.</i>
+            </section>
+
+            <section data-background-image="ASSETS/pointilles-A4.png">
+                <h4>Quel que soit l'utilisateur que vous êtes, COmmunecter est (et restera)</h3>
+                    <p class="fragment fade-up"><i class="fab fa-creative-commons-nc-eu"></i><b> &nbsp; Accessible gratuitement</b></p>
+                    <p class="fragment fade-up"><i class="fas fa-mouse-pointer"></i><b> &nbsp; Sans publicité</b></p>
+                    <p class="fragment fade-up"><i class="fab fa-linux"></i><b> &nbsp; Open source et open data</b></p>
+            </section>
+
+
+            <section>
+                <section data-background-image="ASSETS/citoyens.jpg">
+                    <h2>Je suis un citoyen</h2>
+                    <div class="flechebas">
+                        <a href="#" class="navigate-down">
+                            <span class="arrowdown">
+                                <i class="fas fa-hand-point-down fa-2x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+            <section>
+                <section data-background-image="http://www.saint-quentin.fr/uploads/Image/df/IMF_ACCROCHE/GAB_STQUENTIN/9985_628_Association-solidarite.jpg">
+                    <h2>Je suis une association</h2>
+                    <div class="flechebas">
+                        <a href="#" class="navigate-down">
+                            <span class="arrowdown">
+                                <i class="fas fa-hand-point-down fa-2x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+
+                <section>
+                    <p>Face aux défis sociaux, environnementaux, culturels, économiques et politiques de notre époque, <b>les associations participent à la construction d’un avenir plus solidaire et plus juste</b>. COmmunecter se met au service de ces acteurs de terrain en facilitant l'échange, la mutualisation et l'entraide.</p>
+                </section>
+
+                <section>
+                    <h2>Partie 1 : Présentation</h2>
+                </section>
+
+                <section>
+                    <h4>COmmunecter met en réseau les acteurs et actions locales</h4>
+                    <div id="listElement">
+                        <p style="color:rgb(255, 198, 0);" class="fragment fade-up"><i class="fas fa-user"></i> Citoyen</p>
+                        <p style="color:rgb(52, 168, 83);" class="fragment fade-up"><i class="fas fa-users"></i> Association</p>
+                        <p style="color:rgb(43, 176, 198);" class="fragment fade-up"><i class="fas fa-industry"></i> Entreprise</p>
+                        <p style="color:rgb(34, 146, 150);" class="fragment fade-up"><i class="far fa-circle"></i> Groupe</p>
+                        <p style="color:rgb(230, 52, 77);" class="fragment fade-up"><i class="fas fa-university"></i> Service public</p>
+                        <p style="color:rgb(151, 107, 182);" class="fragment fade-up"><i class="far fa-lightbulb"></i> Projet</p>
+                        <p style="color:rgb(255, 162, 0);" class="fragment fade-up"><i class="far fa-calendar-alt"></i> Évènement</p>
+                        <p style="color:rgb(32, 192, 107);" class="fragment fade-up"><i class="fas fa-map-marker-alt"></i> Point d'intérêt</p>
+                        <p style="color:rgb(43, 176, 198);" class="fragment fade-up"><i class="fas fa-bullhorn"></i> Annonce</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Local</h4>
+                    <p>Que ce soit une publication, une petite annonce ou un évènement, tout ce qui se trouve dans COmmunecter peut être associé à un territoire (ville, département, région ou pays).</p>
+                    <img src="ASSETS/recherchesLocalisation.png" width="500px">
+                </section>
+
+                <section data-markdown="MARKDOWN/interface.md"></section>
+
+                <section>
+                    <h4>Applications</h4>
+                    <p class="fragment fade-up"><i class="fas fa-search"></i> <b>Moteur de recherche</b> : acteurs et actions locales</p>
+                    <p class="fragment fade-up"><i class="far fa-newspaper"></i> <b>Actualité</b> : publications localisées</p>
+                    <p class="fragment fade-up"><i class="far fa-calendar-alt"></i> <b>Agenda</b> : calendrier commun des actions locales</p>
+                    <p class="fragment fade-up"><i class="fas fa-bullhorn"></i> <b>Annonces</b> : partage de matériels et échange de services</p>
+                </section>
+
+                <section>
+                    <h4>Recherche</h4>
+                    <p>En plus du classique mot-clé, le moteur de recherche de COmmunecter dispose de nombreux filtres : <b>type d'élément</b> (citoyen, entreprise, ...), <b>localisation</b> et <b>thématique</b>.</p>
+                    <img src="ASSETS/recherches.png">
+                </section>
+
+                <section>
+                    <h4>Messagerie instantanée</h4>
+                    <p>Nous avons intégré ce chat pour vous aider à réduire le nombre de mail, et vous permettre de discuter par groupe de travail. Retrouvez vos discussions directement sur la fiche de votre association, sur <a href="http://chat.communecter.org/">chat.communecter.org</a> et l'<a href="https://rocket.chat/install">application mobile</a>.</p>
+                    <img src="ASSETS/chat.png">
+                </section>
+
+                <section>
+                    <h2>Partie 2 : communecter son association</h2>
+                </section>
+
+                <section data-markdown="MARKDOWN/voircarte.md"></section>
+
+                <section>
+                    <p>La première chose que nous vous invitons à faire est de <b>référencer votre association</b>. Ça ne prends que quelques secondes : <a href="http://communecter.org/" target="_blank">allez-y</a> !</p>
+                    <img src="ASSETS/creerAsso.gif">
+                    <p>
+                </section>
+
+                <section>
+                    <p>Vous pouvez <b>inviter par mail</b> les membres les plus actif de votre communauté.</p>
+                    <img src="ASSETS/inviter.gif">
+                </section>
+
+                <section>
+                    <p>Utilisez la <b>messagerie</b> instantannée pour discuter entre vous.</p>
+                    <img src="ASSETS/ouvrirMessagerie.gif">
+                </section>
+
+                <section>
+                    <p><b>Publiez</b> un message. Un simple "Bonjour" avec un lien vers votre site est un bon début. Plus tard cet espace permettra de partager votre actualité.</p>
+                    <img src="https://doc.co.tools/uploads/images/gallery/2019-01-Jan/scaled-840-0/Capture-d%E2%80%99%C3%A9cran_2019-01-07_16-36-53.png">
+                </section>
+
+                <section>
+                    <p>Ajoutez vos <b>évènements</b>, comme la prochaine rencontre entre bénévoles ou l'évènement auquel vous allez participer.</p>
+                    <img src="https://cloud.co.tools/index.php/s/DwgppbR6Pm6NntK/preview">
+                </section>
+
+                <section>
+                    <p>Partagez vos <b>projets</b> et lancez un appel à bénévole !</p>
+                    <img src="ASSETS/afficherProjets.png">
+                </section>
+
+                <section>
+                    <p>Lancez un premier <b>vote</b> sur l'usage de COmmunecter au sein de votre organisation.</p>
+                    <img src="http://dev.communecter.org/themes/CO2/ASSETS/img/dda_help/vote.png">
+                </section>
+
+                <section>
+                    <p>Répartissez-vous les <b>tâches</b></p>
+                    <img src="https://doc.co.tools/uploads/images/gallery/2019-01-Jan/scaled-840-0/Capture-d%E2%80%99%C3%A9cran_2019-01-07_16-53-50.png">
+                </section>
+
+                <section>
+                    <p>Affichez vos <b>valeurs</b></p>
+                    <img src="https://doc.co.tools/uploads/images/gallery/2019-01-Jan/Screenshot-2018-1-18-Communecter.png">
+                </section>
+
+                <section>
+                    <p>L'usage de COmmunecter devient optimal quand d'autres acteurs locaux l'utilise. Rejoignez les pixels actifs en tant qu'ambassadeur et nous vous aiderons à développer l'usage de COmmunecter dans votre commune.</p>
+                </section>
+            </section>
+
+            <section>
+                <section data-background-image="https://upload.wikimedia.org/wikipedia/commons/6/66/Carte_Groupe_Locaux_2017.png">
+                    <h2>Je suis une fédération</h2>
+                    <h3 class="descriptionCible">Un réseau d'acteurs basés à plusieurs endroits</h3>
+                    <div class="flechebas">
+                        <a href="#" class="navigate-down">
+                            <span class="arrowdown">
+                                <i class="fas fa-hand-point-down fa-2x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <section data-markdown="MARKDOWN/creerEvenement.md"></section>
+            </section>
+
+            <section>
+                <section data-background-image="http://www.la-bicycletterie.com/wp-content/uploads/2012/10/APernet-BICYCLETTERIE-4160-1024x681.jpg">
+                    <h2>Je suis une entreprise</h2>
+                    <div class="flechebas">
+                        <a href="#" class="navigate-down">
+                            <span class="arrowdown">
+                                <i class="fas fa-hand-point-down fa-2x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <section data-markdown="MARKDOWN/creerEvenement.md"></section>
+            </section>
+
+            <section>
+                <section data-background-image="http://www.tarbes.fr/components/comp_ckfinder/ckfinder/userfiles/files/mairie3_apres.JPG">
+                    <h2>Je suis une collectivité</h2>
+                    <p></p>
+                </section>
+                <section data-markdown="MARKDOWN/creerEvenement.md"></section>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="../lib/js/head.min.js"></script>
+    <script src="../js/reveal.js"></script>
+
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [{
+                    src: '../lib/js/classList.js',
+                    condition: function() {
+                        return !document.body.classList;
+                    }
+                },
+                {
+                    src: '../plugin/MARKDOWN/marked.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: '../plugin/MARKDOWNMARKDOWN.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: '../plugin/highlight/highlight.js',
+                    async: true,
+                    callback: function() {
+                        hljs.initHighlightingOnLoad();
+                    }
+                },
+                {
+                    src: '../plugin/search/search.js',
+                    async: true
+                },
+                {
+                    src: '../plugin/zoom-js/zoom.js',
+                    async: true
+                },
+                {
+                    src: '../plugin/notes/notes.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+
+</body>
+
+</html>

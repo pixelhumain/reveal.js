@@ -1,0 +1,2 @@
+#### Version courte
+« Communecter » est une **boite à outil citoyenne ouverte à tous**. C'est un **réseau sociétal** innovant de développement de territoire avec une **approche locale** (commune, département, région...) disponible via le navigateur et des applications mobiles.

@@ -1,0 +1,7 @@
+#### L'équipe
+<p class="fragment fade-left"><i class="fas fa-code"></i>  <a href="https://communecter.org/#page.type.citoyens.id.55e042ffe41d754428848363">Raphaël</a>, <a href="https://communecter.org/#page.type.citoyens.id.55ee8d59e41d756612558516">Clément</a> et <a href="https://communecter.org/#page.type.citoyens.id.5534fd9da1aa14201b0041cb">Tibor</a> (développeurs)</p>
+<p class="fragment fade-right"><a href="https://communecter.org/#page.type.citoyens.id.5c4568b940bb4e1b2c123ae7">Marie-Jean</a> (assistante administrative)  <i class="fas fa-file-signature"></i></p>
+<p class="fragment fade-left"><i class="fas fa-hands-helping"></i> <a href="https://communecter.org/#page.type.citoyens.id.57e5256640bb4eff07c4c9d6">Tom</a> (médiateur numérique)</p>
+<p class="fragment fade-right"><a href="https://communecter.org/#page.type.citoyens.id.586b6c5c40bb4ef112c8ec65">Édith</a> (graphiste) <i class="fas fa-pencil-ruler"></i></p>
+<p class="fragment fade-left"><i class="fas fa-comments"></i> <a href="https://communecter.org/#page.type.citoyens.id.5c1a005940bb4e98212ac366">Enora</a> et <a href="https://communecter.org/#page.type.citoyens.id.5830f82640bb4e6a32e069f5">Jeanne</a> (services civiques)</p>
+<p class="fragment fade-right"><i class="fas fa-users"></i> des <a href="https://communecter.org/#@coambassadeurs.view.directory.dir.members">ambassadeur⋅ice⋅s</a> à travers le monde !</p>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>COmmunecter son EPN</title>
+
+    <meta name="description" content="Présentation de COmmunecter pour les Espaces Publics Numérique">
+    <meta name="author" content="Tom Baumert">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/reveal.css">
+    <link rel="stylesheet" href="../css/theme/communecter.css" id="theme">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../css/print/pdf.css' : '../css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-markdown="MARKDOWN/accueil.md"></section>
+
+            <section data-background-image="http://www.saint-quentin.fr/uploads/Image/df/IMF_ACCROCHE/GAB_STQUENTIN/9985_628_Association-solidarite.jpg">
+                <h2 style="font-family: 'Covered By Your Grace'; background-color: white; font-size: 1.6em; padding-top: 20px;">COMMUNECTER POUR LES EPN</h2>
+            </section>
+
+            <section>
+            	<p>COmmunecter comme : réseau de médiation numérique, réseau local et support de vulgarisation.</p>
+            </section>
+
+
+            <section>
+                <section>
+                    <h2>Partie 1 : Le projet</h2>
+                </section>
+
+                <section data-markdown="MARKDOWN/presentationCourte.md"></section>
+                <section data-markdown="MARKDOWN/elements.md"></section>
+                <section data-markdown="MARKDOWN/communecterRestera.md"></section>
+                <section data-markdown="MARKDOWN/quiSommesNous.md"></section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>Partie 2 : La plateforme</h2>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>Partie 3 : communecter son EPN</h2>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="../js/reveal.js"></script>
+
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            pdfSeparateFragments: false,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [{
+                    src: '../plugin/markdown/marked.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: '../plugin/markdown/markdown.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: '../plugin/highlight/highlight.js',
+                    async: true
+                },
+                {
+                    src: '../plugin/search/search.js',
+                    async: true
+                },
+                {
+                    src: '../plugin/zoom-js/zoom.js',
+                    async: true
+                },
+                {
+                    src: '../plugin/notes/notes.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+
+</body>
+
+</html>
