@@ -64,7 +64,7 @@ body {
 .reveal h6 {
     margin: 0 0 20px 0;
     color: #222;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Covered By Your Grace', "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: normal;
@@ -87,10 +87,6 @@ body {
 
 .reveal h4 {
     font-size: 1em;
-}
-
-.reveal h1 {
-    text-shadow: none;
 }
 
 /*********************************************
