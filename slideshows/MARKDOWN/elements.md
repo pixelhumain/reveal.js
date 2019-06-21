@@ -1,4 +1,4 @@
-Notre ambition est de **connecter véritablement les acteurs et les actions d'un territoire**. Sur COmmuncter vous trouverez des :
+Notre ambition est de **connecter véritablement les acteurs et les actions d'un territoire**. Sur COmmunecter vous trouverez des :
 <div id="listElement">
 	<p style="color:rgb(255, 198, 0);" class="fragment fade-up"><i class="fas fa-user"></i> Citoyen⋅e⋅s</p>
 	<p style="color:rgb(52, 168, 83);" class="fragment fade-up"><i class="fas fa-users"></i> Associations</p>
