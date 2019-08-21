@@ -2,4 +2,4 @@
 Ce diaporama vous permettra de comprendre en quoi cette plateforme peut vous être utile et ce que vous pouvez faire avec.
 <img src="ASSETS/BDB.jpg" width="200px" style="float:right;box-shadow:none;"><br />
 Bonne lecture :)</p>
-Naviguez grâce aux fléches du clavier.
+Naviguez grâce aux fléches du clavier. N'oubliez pas de descendre pour découvrir les parties qui vous intéressent.
